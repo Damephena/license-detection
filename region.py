@@ -20,11 +20,4 @@ for region in measure.regionprops(label_image):
             fill=False
             )
         axis_1.add_patch(rect_border)
-    # min_row, min_col, max_row, max_col = region.bbox
-    # rect_border = patches.Rectangle((min_col, min_row), max_col - min_col, max_row - min_row, 
-    #     edgecolor="blue",
-    #     linewidth=2,
-    #     fill=False
-    #     )
-    # axis_1.add_patch(rect_border)
 plt.show()
